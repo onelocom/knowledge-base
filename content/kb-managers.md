@@ -7,16 +7,11 @@ id = "knowledge-base-managers"
 This note keeps track of knowledge base and note-taking tools that could
 overlap with what Onelo is trying to do.
 
-
 ## Articles
 
 * https://www.noteapps.info/launch_note
 * https://theodi.org/article/guest-post-how-knowledge-graphs-can-help-tidy-up-and-manage-data-flows/
 * https://nesslabs.com/digital-garden-set-up
-
-
-
-
 
 ## KB systems
 
@@ -24,7 +19,8 @@ overlap with what Onelo is trying to do.
 * [Neuron][neuron]. Future-proof and simple-to-use notes system based on Zettelkasten. 
 * [Roam research][roam]. As easy to use as a document. As powerful as a graph database. Roam helps you organize your research for the long haul.
 * [Amplenote][amplenote]. Flexible notes and tasks, built by productivity enthusiasts.
-
+* [Slab][slab]. Focuses on editing. Knowledge will live in their platform, although they seem to provide an import/export solution. Something interesting: they have a bot/cron that you can set up to be notified to review if documentation has "expired".
+* [Coda][coda]. Very strong solution (used by big companies). Closed platform. Provides automations (like ifttt). They seem to focus on decision documentation. And documents are alive (you can integrate a table that recalculates as soon as you add a new row, etc). 
 
 ## Builders
 
@@ -48,3 +44,11 @@ overlap with what Onelo is trying to do.
 [gatsby]: https://www.gatsbyjs.com/
 [nanoc]: https://nanoc.ws/
 [promnesia]: https://github.com/karlicoss/promnesia
+
+[slab]: https://slab.com/
+[tettra]: https://tettra.com/
+[process]: https://www.process.st/
+[coda]: https://coda.io/welcome
+[slite]: https://slite.com/
+[notion]: https://www.notion.so/
+[nuclino]: https://www.nuclino.com/
