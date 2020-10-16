@@ -21,6 +21,8 @@ overlap with what Onelo is trying to do.
 * [Amplenote][amplenote]. Flexible notes and tasks, built by productivity enthusiasts.
 * [Slab][slab]. Focuses on editing. Knowledge will live in their platform, although they seem to provide an import/export solution. Something interesting: they have a bot/cron that you can set up to be notified to review if documentation has "expired".
 * [Coda][coda]. Very strong solution (used by big companies). Closed platform. Provides automations (like ifttt). They seem to focus on decision documentation. And documents are alive (you can integrate a table that recalculates as soon as you add a new row, etc). 
+* [Connected Papers][connpapers]. A web visual tool to navigate through related papers graphically.
+
 
 ## Builders
 
@@ -45,10 +47,11 @@ overlap with what Onelo is trying to do.
 [nanoc]: https://nanoc.ws/
 [promnesia]: https://github.com/karlicoss/promnesia
 
-[slab]: https://slab.com/
-[tettra]: https://tettra.com/
-[process]: https://www.process.st/
 [coda]: https://coda.io/welcome
-[slite]: https://slite.com/
+[connpapers]: https://www.connectedpapers.com/
 [notion]: https://www.notion.so/
 [nuclino]: https://www.nuclino.com/
+[process]: https://www.process.st/
+[slab]: https://slab.com/
+[slite]: https://slite.com/
+[tettra]: https://tettra.com/
