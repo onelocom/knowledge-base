@@ -33,6 +33,9 @@ overlap with what Onelo is trying to do.
   surfing copilot by enhancing your browsing history, improving your web exploration
   experience, and integrating with your knowledge base
 
+## Online Markdown Editor
+
+* [Boosthub][boosthub]. Markdown editor with real time collaboration
 
 
 
@@ -52,3 +55,5 @@ overlap with what Onelo is trying to do.
 [slite]: https://slite.com/
 [notion]: https://www.notion.so/
 [nuclino]: https://www.nuclino.com/
+
+[boosthub]: https://boosthub.io/
