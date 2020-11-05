@@ -23,6 +23,7 @@ overlap with what Onelo is trying to do.
 * [Coda][coda]. Very strong solution (used by big companies). Closed platform. Provides automations (like ifttt). They seem to focus on decision documentation. And documents are alive (you can integrate a table that recalculates as soon as you add a new row, etc). 
 * [Connected Papers][connpapers]. A web visual tool to navigate through related papers graphically.
 * [Dendron][dendron]. An open-source, local-first, markdown-based, note-taking tool built on top of VSCode.
+* [Outline][outline]. An open-source, documenting platform with SaaS option.
 
 
 ## Builders
@@ -56,6 +57,7 @@ overlap with what Onelo is trying to do.
 [neuron]: https://github.com/srid/neuron
 [notion]: https://www.notion.so/
 [nuclino]: https://www.nuclino.com/
+[outline]: https://www.getoutline.com/
 [process]: https://www.process.st/
 [promnesia]: https://github.com/karlicoss/promnesia
 [roam]: https://roamresearch.com/
