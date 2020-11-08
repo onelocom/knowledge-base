@@ -6,6 +6,11 @@ id: readme
 
 Given a [data source](data-sources.md), [find files](find-files.md) and [display](display-files.md) them.
 
+* Given a source
+* Inspect the content
+* Extract the implicit structure (non-linear, graph)
+* And display it.
+
 ## Parts of Onelo
 
 According to _What's Onelo?_ we can define 2 parts:
