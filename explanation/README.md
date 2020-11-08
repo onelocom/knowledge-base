@@ -8,7 +8,7 @@ Given a [data source](data-sources.md), [find files](find-files.md) and [display
 
 ## Parts of Onelo
 
-According _What's Onelo?_ we can define 2 parts:
+According to _What's Onelo?_ we can define 2 parts:
 
 - [Onelo API](onelo-api.md)
 - Onelo Adapters
