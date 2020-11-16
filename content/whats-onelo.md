@@ -30,8 +30,8 @@ From all the files found and inspected, three types of structures can be extract
 
 1. Explicit: The same file hierarchy we can find in the data source filesystem.
 2. Implicit: The structure is created based on:
-    - links between files written along content
-    - some metadata specified at the beginning of the file and understandable by Onelo //TODO: _Metadata_ needs an explanation
+    * links between files written along content
+    * some metadata specified at the beginning of the file and understandable by Onelo //TODO: _Metadata_ needs an explanation
 3. Inferred: The structure is created based on some machine learning or natural language processing algorithms
 
 Explicit structure is obvious, and it not have much added value, but could be useful in some scenarios.
