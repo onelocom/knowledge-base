@@ -18,6 +18,8 @@ Search all files in the data source including subdirectories.
 
 Read the content of a given file and store it.
 
+We persists the content read in a cache to improve the performance of future actions carried out with this content.
+
 ## Extract structures
 
 From all the files found and inspected, three types of structures can be extracted:
@@ -55,5 +57,5 @@ We have saved the tools for last. Tools are the things we need to accomplish the
 graph LR
     CLI(Onelo CLI) ---|uses| CORE(Onelo CORE)
     GUI(Onelo GUI) ---|uses| CORE
-    CORE ---|persists| CACHE[(sqlite Cache)]
+    CORE ---|CRUD| CACHE[(Cache)]
 ```

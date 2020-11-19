@@ -7,7 +7,7 @@ Each type of file will have their own metadata. In the early stages of developme
 ## Markdown
 
 The metadata must be a [toml](https://toml.io) set of data added to the beginning (front matter) of a markdown file.
-Insert metadata between `+++`.
+Insert metadata between `+++` (like [hugo](https://gohugo.io/content-management/front-matter/) do).
 
 ```
 +++
