@@ -1,6 +1,6 @@
----
++++
 id: onelo-core
----
++++
 
 # Onelo Core
 
