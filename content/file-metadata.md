@@ -1,3 +1,7 @@
++++
+id = "file-metadata"
++++
+
 # File metadata
 
 Onelo uses metadata to extract some structure between files, we knows that structure as __implicit structure__.
@@ -11,7 +15,7 @@ Insert metadata between `+++` (like [hugo](https://gohugo.io/content-management/
 
 ```
 +++
-Insert here metadata
+Insert metadata here
 +++
 ```
 
@@ -23,5 +27,5 @@ Insert here metadata
 
 ```
 +++
-id: file-metadata
+id = "file-metadata"
 +++
