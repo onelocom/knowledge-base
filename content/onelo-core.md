@@ -19,11 +19,15 @@ _Update previous diagram using [this bpmn file](assets/pipeline.bpmn) and [kroki
 
 ## Phases
 
-TODO: Add some description of each phase
-
 ### Prelude
 
 ### Sourcing
+
+This phase is in charge for, given a data source, getting all the files and storing their content. This storage is done in a cache (described later).
+
+Before getting all the files, this phase checks if you already have the necessary data previously cached. It only recovers all data in files if they are more recent than what is in the cache.
+
+The following tables take part in this phase, [source](#source), [source_entry](#source_entry) and [artefact](#artefact).
 
 ### Extraction
 
@@ -31,24 +35,38 @@ TODO: Add some description of each phase
 
 ## Cache
 
-The content get from the files in the __sourcing__ phase is persisted in a cache to facilitate its subsequent management.
-
-### Cache data model
+The content get from the files in the __sourcing__ phase is persisted in a cache to facilitate its subsequent management. Onelo uses the following data model:
 
 ![Cache data model diagram](https://kroki.io/erd/svg/eNqdUUtrxCAQvs-vkO0tIZC9FNq_EsriYxKkrgYzWRpK_3tX85Y0h950vudoJZ0l_KIP9i0a6Yzz7-zyUotaKHH5gewTB3hw0yNA1bneS0yZQry-BaZW4F1PCKTv2BG_t4vkhpb8cCLMJ144ck9Yc0nhEstZutHQRhCqGT0xm0RPsnUqqatKLFU5EUmTQVDYSa9b0s5CbrRF3oxF0vBdM6iesEUZZH9FOK8bbQM7I-4bjMKD0NVpzfpXkcg4WdhwgWbnHdWL-cmjwvYnWVYUVzZO9sC1KHI21zuAtmkA4X_CPGPrDstwDhjlyzjxWMdLKqxmBz4bMG6RvF4iTtL2YLZk_gJ7GCF0)
 
 _Update previous diagram using [this erd file](assets/cache-data-model.erd) and [kroki.io](https://kroki.io)._
 
-TODO: Add small description of each table
+The cache is a [sqlite](https://sqlite.org) database.
 
-* source
-* source_entry
-* content_type
-* artefact
-* node
-* connection
-* connection_type
-* context
+### source
+
+Stores data of the datasource
+
+### source_entry
+
+Stores data about each file found in the source
+
+### artefact
+
+Stores the content of a file
+
+### content_type
+
+Stores the content type of the files
+
+### node
+
+### connection
+
+### connection_type
+
+### context
+
 
 ## Onelo Core API
 
