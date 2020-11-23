@@ -8,7 +8,9 @@ Onelo is a __set of tools__ that given a __data source__, __find files__ and __i
 
 ## Data sources
 
-In the early stages of development, we understand data sources as some directory on the local file system. Future versions could be able to use remote data sources like Dropbox, Github repositories, etc accessed via API.
+In the early stages of development, we understand data sources as some directory on the local file system.
+
+Future versions could be able to use remote data sources like Dropbox, Github repositories, etc, accessed via API.
 
 ## Find files
 
@@ -18,7 +20,7 @@ Search all files in the data source including subdirectories.
 
 Read the content of a given file and store it.
 
-We persists the content read in a cache to improve the performance of future actions carried out with this content.
+The content of the file is persisted in a cache to improve the performance of future actions carried out with this content (extract structures, export structures or display structures and content).
 
 ## Extract structures
 
@@ -29,6 +31,8 @@ From all the files found and inspected, three types of structures can be extract
     * links between files written in the content
     * some [metadata](file-metadata.md) specified in the file and understandable by Onelo
 3. __Inferred__: The structure is created based on some machine learning or natural language processing algorithms
+
+The structures extracted will be stored in the cache as well.
 
 ## Export structures
 
@@ -41,7 +45,7 @@ In the end, a representation should be:
 
 ## Display structures and content
 
-A structure exported (as a stream of data or as a file) could be displayed using different representations depending on the nature of the structure (some kind of graph, a classic hierarchy, etc). Moreover, it can be navigated and should display the content inspected.
+An structure exported (as a stream of data or as a file) could be displayed using different representations depending on the nature of the structure (some kind of graph for an implicit structure, a classic hierarchy for an explicit structure, etc). Moreover, it can be navigated and should display the content inspected.
 
 The user could swap between the differents structures extracted (if there are more than one).
 
